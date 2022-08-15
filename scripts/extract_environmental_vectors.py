@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 from tqdm import tqdm
 
-from data_loading.environmental_raster import PatchExtractor, Patch
+from environmental_raster import PatchExtractor, Patch
 
 
 def compute_environmental_vectors(
